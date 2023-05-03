@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Roxana" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <title>Registro</title>
+    <style>
+      body {
+        background-color: rgb(179, 114, 179);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
+      }
+
+      .form1 {
+        max-width: 25em;
+        padding: 1.3em;
+        margin: 0 auto;
+        background-color: transparent;
+        font-weight: bold;
+        border-radius: 0.5em;
+        box-shadow: inset 1px 1px 22px 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="container">
+      <div action="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <form action="" method="post" class="form1">
+            <h3>Registro Personal</h3>
+            <div class="form-group">
+              <label>Apellido y Nombre:</label>
+              <input
+                type="text"
+                placeholder="Introduzca el nombre completo"
+                maxlength="30"
+                id="nombre"
+                name="nombre"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Localidad:</label>
+              <input
+                type="text"
+                placeholder="Localidad"
+                maxlength="30"
+                id="localidad"
+                name="localidad"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Domicilio:</label>
+              <input
+                type="text"
+                placeholder="Domicilio"
+                maxlength="30"
+                id="domicilio"
+                name="domicilio"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Codigo Postal:</label>
+              <input
+                type="integer"
+                placeholder="Codigo Postal"
+                id="cod postal"
+                name="cod postal"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Telefono:</label>
+              <input
+                type="integer"
+                placeholder="Telefono"
+                id="telefono"
+                name="telefono"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Nombre de usuario:</label>
+              <input
+                type="text"
+                placeholder="Usuario"
+                maxlength="20"
+                id="usuario"
+                name="usuario"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Email:</label>
+              <input
+                type="char"
+                placeholder="Email"
+                id="email"
+                name="email"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Contraseña:</label>
+              <input
+                type="char"
+                placeholder="Contraseña"
+                maxlength="10"
+                id="contraseña"
+                name="contraseña"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Registrarme</button>
+              <a href="./principal.html" class="btn btn-success"> Inicio</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
