@@ -17,6 +17,7 @@
   <body
     style="
       margin-top: 10px;
+      margin-bottom: 10px;
       max-width: 90vw justy;
       justify-content: center;
       background-color: #f1e5ff;
@@ -24,11 +25,53 @@
   >
     <div class="container-fluid">
 
+      <!-- BARRA DE NAVEGACION -->
       <nav
-        class="bg-secondary container-fluid fixed-top sticky-top"
-        style="height: 8vh"
+        class="navbar navbar-expand-md fixed-top sticky-top"
+        style="background: rgb(163, 12, 163)"
       >
-        NAVBAR
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-secondary" type="submit">
+                    Buscar
+                  </button>
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Registarse</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav me-3">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Nosotros</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
       </nav>
 
       <!-- Banner con nombre del negocio -->
@@ -1888,8 +1931,130 @@
 
       </main>
 
-      <footer class="bg-primary container-fluid" style="height: 8vh">
-        FOOTER
+      <footer>
+        <div
+        class="container-fluid text-white p-3"
+        style="
+          font-family: ´Poppiins´, sans-serif;
+          background: rgb(163, 12, 163);
+          background: rgb(163, 12, 163);
+          background: lienear-gradient(
+            to right,
+            #0f0f14,
+            #171722,
+            #18160b,
+            #0e0c1a
+          );
+        "
+      >
+        <div class="row justify-content-around text-center text-md-start">
+          <div class="col-md-2 text-center">
+            <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
+            <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
+          </div>
+          <div class="col-md-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold my-2">Institucional</li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >Politica de Privacidad</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >Terminos y Condiciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >Defensa del Consumidor</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold my-2">Ayuda</li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >¿Como comprar?</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >¿Como medir tu talle?</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white">Cambios</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="list-unstyled">
+              <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
+              <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
+              <li>
+                <a href="#" class="text-decoration-none text-white">contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-white"
+                  >supoort requerido</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <li class="fw-bold my-2 list-unstyled">Redes Sociales</li>
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-start"
+            >
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-facebook me-2 fa-1x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-whatsapp mx-2 fa-1x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-youtube mx-2 fa-1x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-instagram mx-2 fa-1x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-12 text-center pt-2">
+              <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
+              <p>
+                © 2023. Todos los derechos reservados. | Todas las marcas y sus
+                imágenes son propiedad de sus respectivos dueños | Se prohíbe la
+                reproducción, total o parcial, de cualquier contenido sin
+                autorización expresa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       </footer>
       
     </div>
