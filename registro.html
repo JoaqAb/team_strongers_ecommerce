@@ -11,39 +11,41 @@
       crossorigin="anonymous"
     />
     <title>Registro</title>
-    <style>
-      body {
-        background-color: #f1e5ff;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position-x: center;
-      }
-
-      .form1 {
-        max-width: 25em;
-        padding: 1.3em;
-        margin: 0 auto;
-        background-color: #f1e5ff;
-        font-weight: bold;
-        color: rgb(163, 12, 163);
-        border-radius: 0.5em;
-        box-shadow: 0 0 20px rgb(163, 12, 163);
-      }
-    </style>
   </head>
 
-  <body>
+  <body
+  style="
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 90vw justy;
+  justify-content: center;
+  background-color: #f1e5ff;
+"
+  >
     <div class="container-fluid">
       <nav
         class="navbar navbar-expand-md fixed-top sticky-top"
         style="background: rgb(163, 12, 163)"
       >
         <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-bold" href="./index.html" style="color: #f1e5ff;">1KM+</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuNav">
+          <a
+            class="navbar-brand fs-4 fw-bold"
+            href="./index.html"
+            style="color: #f1e5ff"
+            >1KM+</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuNav"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <form class="d-flex" role="search">
@@ -59,11 +61,18 @@
                 </form>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" style="cursor: pointer;" data-bs-toggle="modal"
-                data-bs-target="#modallogin">Login</a>
+                <a
+                  class="nav-link text-white"
+                  style="cursor: pointer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modallogin"
+                  >Login</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./registro.html">Registarse</a>
+                <a class="nav-link text-white" href="./registro.html"
+                  >Registrarse</a
+                >
               </li>
             </ul>
 
@@ -72,13 +81,16 @@
                 <a class="nav-link text-white" href="#">Carrito</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                <a class="nav-link text-white" href="./contacto.html"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./quienes_somos.html">Nosotros</a>
+                <a class="nav-link text-white" href="./quienes_somos.html"
+                  >Nosotros</a
+                >
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
@@ -86,7 +98,21 @@
       <section class="container mt-5 mb-5">
         <div action="row">
           <div class="col-12">
-            <form action="" method="post" class="form1">
+            <form
+              action=""
+              method="post"
+              class="form1"
+              style="
+                max-width: 25em;
+                padding: 1.3em;
+                margin: 0 auto;
+                background-color: #f1e5ff;
+                font-weight: bold;
+                color: rgb(163, 12, 163);
+                border-radius: 0.5em;
+                box-shadow: 0 0 20px rgb(163, 12, 163);
+              "
+            >
               <h3>Registro Personal</h3>
               <div class="form-group">
                 <label>Apellido y Nombre:</label>
@@ -203,7 +229,8 @@
         </div>
       </section>
 
-      <div><!-- Modal login -->
+      <div>
+        <!-- Modal login -->
         <div
           class="modal fade"
           id="modallogin"
@@ -211,14 +238,10 @@
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div
-            class="modal-dialog modal-dialog-centered"
-          >
-            <div class="modal-content" style="background-color: #f1e5ff;">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: #f1e5ff">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  Login
-                </h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
                 <button
                   type="button"
                   class="btn-close"
@@ -228,9 +251,8 @@
               </div>
               <div class="modal-body">
                 <div class="container-fluid">
-                  <div class="row d-flex">                   
+                  <div class="row d-flex">
                     <div>
-                      
                       <div class="form-group">
                         <label>Email:</label>
                         <input
@@ -241,7 +263,7 @@
                           class="form-control"
                         />
                       </div>
-        
+
                       <div class="form-group">
                         <label>Contraseña:</label>
                         <input
@@ -275,7 +297,6 @@
                   >
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -411,5 +432,10 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
