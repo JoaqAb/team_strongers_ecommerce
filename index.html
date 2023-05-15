@@ -12,9 +12,20 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Poppinswght@300display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppinswght@300display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
+
 
   <body
     style="
@@ -26,19 +37,31 @@
     "
   >
     <div class="container-fluid">
-
       <!-- BARRA DE NAVEGACION -->
       <nav
         class="navbar navbar-expand-md fixed-top sticky-top"
         style="background: rgb(163, 12, 163)"
       >
         <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-bold" href="./index.html" style="color: #f1e5ff;">1KM+</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a
+            class="navbar-brand fs-4 fw-bold align-self-center"
+            href="./index.html"
+            style="color: #f1e5ff"
+            >1KM+</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuNav"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
+            <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <form class="d-flex" role="search">
                   <input
@@ -53,11 +76,18 @@
                 </form>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" style="cursor: pointer;" data-bs-toggle="modal"
-                data-bs-target="#modallogin">Login</a>
+                <a
+                  class="nav-link text-white"
+                  style="cursor: pointer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modallogin"
+                  >Login</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./registro.html">Registrarse</a>
+                <a class="nav-link text-white" href="./registro.html"
+                  >Registrarse</a
+                >
               </li>
             </ul>
 
@@ -66,168 +96,153 @@
                 <a class="nav-link text-white" href="./carrito.html">Carrito</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                <a class="nav-link text-white" href="./contacto.html"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./quienes_somos.html">Nosotros</a>
+                <a class="nav-link text-white" href="./quienes_somos.html"
+                  >Nosotros</a
+                >
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
 
       <!-- Banner con nombre del negocio -->
-      <header style="height: 20vh; background-image: url(./imagenes/banner.jpg); display: flex; align-items: center; padding-left: 2%;">
-        <h1 style="font-family:´Poppiins´, sans-serif; color: rgb(163, 12, 163); font-weight: 800">
+      <header
+        style="
+          height: 20vh;
+          background-image: url(./imagenes/banner.jpg);
+          display: flex;
+          align-items: center;
+          padding-left: 2%;
+        "
+      >
+        <h1
+          style="
+            font-family: ´Poppiins´, sans-serif;
+            color: rgb(163, 12, 163);
+            font-weight: 800;
+          "
+        >
           1KM+
         </h1>
-      </header>    
-      
+      </header>
+
       <main>
-
-        <section class="mt-3 mb-3 d-none d-md-block">
-          <!-- botones a diferentes a las diferentes secciones -->
-
-          <div class="d-flex flex-wrap justify-content-around">
-            <!-- boton para cada seccion -->
-            <div>
-              <button type="button" class="btn btn-secondary btn" style=" background: rgb(163, 12, 163)">MUJER</button>
-            </div>
-            <div>
-              <button type="button" class="btn btn-secondary btn" style="background: rgb(163, 12, 163)">
-                HOMBRE
-              </button>
-            </div>
-            <div>
-              <button type="button" class="btn btn-secondary btn" style="background: rgb(163, 12, 163)">
-                ACCESORIOS
-              </button>
-            </div>
-          </div>
-        </section>
-
         <hr />
 
         <div>
-          <section> <!-- promociones -->
-
+          <section>
+            <!-- promociones -->
+            <div class="d-flex text-center p-2 mb-3 d-none d-md-block" style="background: rgb(163, 12, 163); color: #f1e5ff">
+              <h2>PROMOCIONES</h2>
+            </div>
             <div
               id="carouselExampleIndicators"
               class="carousel slide d-none d-md-block"
             >
-             
-
               <div class="carousel-inner">
-
-                <div class="carousel-item active"><!-- Primera tanda del slider -->
+                <div class="carousel-item active">
+                  <!-- Primera tanda del slider -->
                   <div>
                     <div
                       class="row h-100 justify-content-center"
                       style="height: 30vh"
                     >
-                        <div class="row d-flex">
-
-                          <div class="col-md-3">
-                            <div
-                              class="card"
-                              style="max-width: auto; cursor: pointer"
-                              data-bs-toggle="modal"
-                              data-bs-target="#modal1"
-                            >
-                              <img
-                                src="./imagenes/a1.jpg"
-                                class="card-img-top"
-                                alt="..."
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
-                                <p class="card-text">Descripción.</p>
-                              </div>
+                      <div class="row d-flex">
+                        <div class="col-md-3">
+                          <div
+                            class="card"
+                            style="max-width: auto; cursor: pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal1"
+                          >
+                            <img
+                              src="./imagenes/a1.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Descripción.</p>
                             </div>
                           </div>
-
-                          <div class="col-md-3">
-                            <div
-                              class="card"
-                              style="max-width: auto; cursor: pointer"
-                              data-bs-toggle="modal"
-                              data-bs-target="#modal2"
-                            >
-                              <img
-                                src="./imagenes/m2.jpg"
-                                class="card-img-top"
-                                alt="..."
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
-                                <p class="card-text">Descripción.</p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-3">
-                            <div
-                              class="card"
-                              style="max-width: auto; cursor: pointer"
-                              data-bs-toggle="modal"
-                              data-bs-target="#modal3"
-                            >
-                              <img
-                                src="./imagenes/h1.jpg"
-                                class="card-img-top"
-                                alt="..."
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
-                                <p class="card-text">Descripción.</p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-3">
-                            <div
-                              class="card"
-                              style="max-width: auto; cursor: pointer"
-                              data-bs-toggle="modal"
-                              data-bs-target="#modal1"
-                            >
-                              <img
-                                src="./imagenes/a2.jpg"
-                                class="card-img-top"                                
-                                alt="..."
-                              />
-                              <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
-                                <p class="card-text">Descripción.</p>
-                              </div>
-                            </div>
-                          </div>
-
                         </div>
+
+                        <div class="col-md-3">
+                          <div
+                            class="card"
+                            style="max-width: auto; cursor: pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal2"
+                          >
+                            <img
+                              src="./imagenes/m2.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Descripción.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            class="card"
+                            style="max-width: auto; cursor: pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal3"
+                          >
+                            <img
+                              src="./imagenes/h1.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Descripción.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            class="card"
+                            style="max-width: auto; cursor: pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal1"
+                          >
+                            <img
+                              src="./imagenes/a2.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Descripción.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="carousel-item"><!-- Segunda tanda del slider -->
+                <div class="carousel-item">
+                  <!-- Segunda tanda del slider -->
 
-                  <div>                    
+                  <div>
                     <div
                       class="row h-100 justify-content-center"
                       style="height: 30vh"
                     >
                       <div>
-                        
                         <div class="row d-flex">
-
                           <div class="col-md-3">
                             <div
                               class="card"
@@ -241,9 +256,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -262,9 +275,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -283,9 +294,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -304,34 +313,27 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
                           </div>
                         </div>
-
                       </div>
-
                     </div>
                   </div>
-
                 </div>
 
-                <div class="carousel-item"><!-- Tercera tanda del slider -->
-                  
+                <div class="carousel-item">
+                  <!-- Tercera tanda del slider -->
+
                   <div>
-                    
                     <div
                       class="row h-100 justify-content-center"
                       style="height: 30vh"
                     >
                       <div>
-                        
                         <div class="row d-flex">
-
                           <div class="col-md-3">
                             <div
                               class="card"
@@ -345,9 +347,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -366,9 +366,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -387,9 +385,7 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
@@ -408,21 +404,16 @@
                                 alt="..."
                               />
                               <div class="card-body">
-                                <h5 class="card-title">
-                                  Título
-                                </h5>
+                                <h5 class="card-title">Título</h5>
                                 <p class="card-text">Descripción.</p>
                               </div>
                             </div>
                           </div>
-
                         </div>
                       </div>
                     </div>
                   </div>
-
                 </div>
-
               </div>
 
               <button
@@ -434,7 +425,7 @@
                 <span
                   class="fa fa-angle-left"
                   aria-hidden="true"
-                  style="color: rgb(163, 12, 163);"
+                  style="color: rgb(163, 12, 163)"
                 ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
@@ -447,317 +438,328 @@
                 <span
                   class="fa fa-angle-right"
                   aria-hidden="true"
-                  style="color: rgb(163, 12, 163);"
+                  style="color: rgb(163, 12, 163)"
                 ></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-
           </section>
 
           <hr class="d-none d-md-block" />
 
-          <section><!-- Seccion Mujer -->
+          <section>
+            <!-- Seccion Mujer -->
+            <a
+                  href="./categoria.html"
+                  class="enlace1"
+                  style="text-decoration: none"
+                >
+              <div class="d-flex text-center p-2 mb-3 d-none d-md-block" style="background: rgb(163, 12, 163); color: #f1e5ff">
+                <h2>MUJER</h2>
+              </div>
+            </a>
+            <div class="row justify-content-center">
+              <!-- banner con link para pantallas chicas y moviles -->
 
-              <div class="row justify-content-center"><!-- banner con link para pantallas chicas y moviles -->
-              
-                <div class="col-12 col-sm-8 d-block d-md-none mb-3"> 
-                  <a
-                    href="https://aboutblank.ie/"
-                    class="enlace1"
-                    style="text-decoration: none"
-                  >
-                    <div class="card" style="max-width: auto">
-                      <div class="row g-0 align-items-center">
-                        <div class="col-4">
+              <div class="col-12 col-sm-8 d-block d-md-none mb-3">
+                <a
+                  href="./categoria.html"
+                  class="enlace1"
+                  style="text-decoration: none"
+                >
+                  <div class="card" style="max-width: auto">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-4">
+                        <img
+                          src="./imagenes/mm1.jpg"
+                          class="img-fluid rounded-start"
+                          style="max-height: auto"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title fs-1 text-center">Mujer</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="mt-2 h-75 d-block d-sm-none">
+              <!-- carousel para seccion en moviles -->
+              <div
+                id="carouselExample"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="6000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- Primera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
                           <img
-                            src="./imagenes/mm1.jpg"
-                            class="img-fluid rounded-start"
-                            style="max-height: auto"
+                            src="./imagenes/m1.jpg"
+                            class="card-img-top"
                             alt="..."
                           />
-                        </div>
-                        <div class="col-8">
                           <div class="card-body">
-                            <h5 class="card-title fs-1 text-center">Mujer</h5>
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m4.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </a>
-                </div>
-              </div>
+                  </div>
 
-              <div class="mt-2 h-75 d-block d-sm-none"> <!-- carousel para seccion en moviles -->
-                <div
-                  id="carouselExample"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                  data-bs-interval="6000"
-                >
-                  <div class="carousel-inner"> 
-                    <div class="carousel-item active"> <!-- Primera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m1.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Segunda tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m5.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m2.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m6.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m3.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m7.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m4.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m8.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
                       </div>
                     </div>
+                  </div>
 
-                    <div class="carousel-item"> <!-- Segunda tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m5.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Tercera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m9.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m6.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m7.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m8.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
                       </div>
-                    </div>
 
-                    <div class="carousel-item"> <!-- Tercera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m9.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m10.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m10.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m11.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m11.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <img
+                            src="./imagenes/m12.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal1"
-                          >
-                            <img
-                              src="./imagenes/m12.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
 
             <div class="row justify-content-center">
-              <div class="col-6 d-none d-sm-none d-md-block m-h-50"><!-- imagenes en carousel link a pagina categoria mujeres -->
+              <div class="col-6 d-none d-sm-none d-md-block m-h-50">
+                <!-- imagenes en carousel link a pagina categoria mujeres -->
                 <a
-                  href="https://aboutblank.ie/"
+                  href="./categoria.html"
                   class="enlace1"
                   style="text-decoration: none"
                 >
@@ -866,309 +868,321 @@
             </div>
           </section>
 
-          <hr class="d-none d-md-block"/>
+          <hr class="d-none d-md-block" />
 
-          <section> <!-- Seccion Hombre -->    
+          <section>
+            <!-- Seccion Hombre -->
+            <a
+                  href="./categoria.html"
+                  class="enlace1"
+                  style="text-decoration: none"
+                >
+              <div class="d-flex text-center p-2 mb-3 d-none d-md-block" style="background: rgb(163, 12, 163); color: #f1e5ff">
+                <h2>HOMBRE</h2>
+              </div>
+            </a>
+            <div class="row justify-content-center">
+              <!-- banner con link para pantallas chicas y moviles -->
 
-              <div class="row justify-content-center"><!-- banner con link para pantallas chicas y moviles -->
-                
-                <div class="col-12 col-sm-8 d-block d-md-none mb-3"> 
-                  <a
-                    href="https://aboutblank.ie/"
-                    class="enlace1"
-                    style="text-decoration: none"
-                  >
-                    <div class="card" style="max-width: auto">
-                      <div class="row g-0 align-items-center">
-                        <div class="col-4">
+              <div class="col-12 col-sm-8 d-block d-md-none mb-3">
+                <a
+                  href="./categoria.html"
+                  class="enlace1"
+                  style="text-decoration: none"
+                >
+                  <div class="card" style="max-width: auto">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-4">
+                        <img
+                          src="./imagenes/hh1.jpg"
+                          class="img-fluid rounded-start"
+                          style="max-height: auto"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title fs-1 text-center">Hombre</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="mt-2 h-75 d-block d-sm-none">
+              <!-- carousel para seccion en moviles -->
+              <div
+                id="carouselExample"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="5500"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- Primera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
                           <img
-                            src="./imagenes/hh1.jpg"
-                            class="img-fluid rounded-start"
-                            style="max-height: auto"
+                            src="./imagenes/h1.jpg"
+                            class="card-img-top"
                             alt="..."
                           />
-                        </div>
-                        <div class="col-8">
                           <div class="card-body">
-                            <h5 class="card-title fs-1 text-center">Hombre</h5>
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h4.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </a>
-                </div>
-              </div>
+                  </div>
 
-              <div class="mt-2 h-75 d-block d-sm-none"> <!-- carousel para seccion en moviles -->
-                <div
-                  id="carouselExample"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                  data-bs-interval="5500"
-                >
-                  <div class="carousel-inner"> 
-                    <div class="carousel-item active"> <!-- Primera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h1.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Segunda tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h5.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h2.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h6.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h3.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h7.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h4.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h8.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
                       </div>
                     </div>
+                  </div>
 
-                    <div class="carousel-item"> <!-- Segunda tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h5.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Tercera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h9.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h6.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h7.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h8.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
                       </div>
-                    </div>
 
-                    <div class="carousel-item"> <!-- Tercera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h9.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h10.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h10.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h11.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h11.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <img
+                            src="./imagenes/h12.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal2"
-                          >
-                            <img
-                              src="./imagenes/h12.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
-                          </div>
-                        </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
 
             <div class="row justify-content-center">
-              <div class="col-6 d-none d-sm-none d-md-block m-h-50"> <!-- imagenes con link a seccion -->
+              <div class="col-6 d-none d-sm-none d-md-block m-h-50">
+                <!-- imagenes con link a seccion -->
                 <a
-                  href="https://aboutblank.ie/"
+                  href="./categoria.html"
                   class="enlace1"
                   style="text-decoration: none"
                 >
@@ -1204,7 +1218,8 @@
                 </a>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-8 d-flex d-none d-sm-block"><!-- targetas con productos -->
+              <div class="col-lg-4 col-md-6 col-sm-8 d-flex d-none d-sm-block">
+                <!-- tarjetas con productos -->
                 <div
                   class="card mb-3 p-2"
                   style="max-width: auto; cursor: pointer"
@@ -1277,15 +1292,27 @@
             </div>
           </section>
 
-          <hr class="d-none d-md-block"/>
+          <hr class="d-none d-md-block" />
 
-          <section> <!-- Seccion Accesorios -->
+          <section>
+            <!-- Seccion Accesorios -->
+            <a
+                  href="./categoria.html"
+                  class="enlace1"
+                  style="text-decoration: none"
+                >
+              <div class="d-flex text-center p-2 mb-3 d-none d-md-block" style="background: rgb(163, 12, 163); color: #f1e5ff">
+                <h2>ACCESORIOS</h2>
+              </div>
+            </a>
 
-            <div class="row justify-content-center"><!-- banner con link para pantallas chicas y moviles -->
-              
-              <div class="col-12 col-sm-8 d-block d-md-none mb-3"> <!-- banner con link a seccion en moviles -->
+            <div class="row justify-content-center">
+              <!-- banner con link para pantallas chicas y moviles -->
+
+              <div class="col-12 col-sm-8 d-block d-md-none mb-3">
+                <!-- banner con link a seccion en moviles -->
                 <a
-                  href="https://aboutblank.ie/"
+                  href="./categoria.html"
                   class="enlace1"
                   style="text-decoration: none"
                 >
@@ -1301,285 +1328,289 @@
                       </div>
                       <div class="col-8">
                         <div class="card-body">
-                          <h5 class="card-title fs-1 text-center">Accesorios</h5>
+                          <h5 class="card-title fs-1 text-center">
+                            Accesorios
+                          </h5>
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
               </div>
-            </div>              
+            </div>
 
-              <div class="mt-2 h-75 d-block d-sm-none"> <!-- carousel para seccion en moviles -->
-                <div
-                  id="carouselExample"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                  data-bs-interval="6500"
-                >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active"> <!-- Primera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a1.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+            <div class="mt-2 h-75 d-block d-sm-none">
+              <!-- carousel para seccion en moviles -->
+              <div
+                id="carouselExample"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="6500"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- Primera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a1.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a2.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a3.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a4.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a4.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
                       </div>
                     </div>
+                  </div>
 
-                    <div class="carousel-item"> <!-- Segunda tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a5.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Segunda tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a5.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a6.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a6.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a7.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a7.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a8.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a8.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
                       </div>
                     </div>
+                  </div>
 
-                    <div class="carousel-item"> <!-- Tercera tanda del slider -->
-                      
-                      <div
-                        class="row"
-                        style="margin-left: 1px; margin-right: 1px"
-                      >
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a9.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                  <div class="carousel-item">
+                    <!-- Tercera tanda del slider -->
+
+                    <div
+                      class="row"
+                      style="margin-left: 1px; margin-right: 1px"
+                    >
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a9.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a10.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a10.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a11.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a11.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-3 d-flex p-0">
-                          <div
-                            class="card d-inline-block"
-                            style="height: 85%"
-                            data-bs-toggle="modal"
-                            data-bs-target="#modal3"
-                          >
-                            <img
-                              src="./imagenes/a12.jpg"
-                              class="card-img-top"
-                              alt="..."
-                            />
-                            <div class="card-body">
-                              <h5 class="card-title text-center fs-6">Título</h5>
-                              <p class="text-center">$1000</p>
-                            </div>
+                      <div class="col-3 d-flex p-0">
+                        <div
+                          class="card d-inline-block"
+                          style="height: 85%"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <img
+                            src="./imagenes/a12.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center fs-6">Título</h5>
+                            <p class="text-center">$1000</p>
                           </div>
                         </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
 
-            <div class="row justify-content-center"> <!-- imagenes con link a seccion -->
+            <div class="row justify-content-center">
+              <!-- imagenes con link a seccion -->
               <div class="col-6 d-none d-sm-none d-md-block m-h-50">
                 <a
-                  href="https://aboutblank.ie/"
+                  href="./categoria.html"
                   class="enlace1"
                   style="text-decoration: none"
                 >
@@ -1615,7 +1646,8 @@
                 </a>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-8 d-flex d-none d-sm-block"> <!-- tarjetas con productos -->
+              <div class="col-lg-4 col-md-6 col-sm-8 d-flex d-none d-sm-block">
+                <!-- tarjetas con productos -->
                 <div
                   class="card mb-3 p-2"
                   style="max-width: auto; cursor: pointer"
@@ -1688,10 +1720,11 @@
             </div>
           </section>
 
-          <hr class="d-none d-md-block"/>
+          <hr class="d-none d-md-block" />
         </div>
 
-        <div> <!-- Modal mujer -->
+        <div>
+          <!-- Modal mujer -->
 
           <div
             class="modal fade"
@@ -1701,13 +1734,11 @@
             aria-hidden="true"
           >
             <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" 
+              class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
             >
-              <div class="modal-content" >
+              <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Mujer
-                  </h1>
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Mujer</h1>
                   <button
                     type="button"
                     class="btn-close"
@@ -1742,13 +1773,15 @@
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Earum, perspiciatis in.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Illum dignissimos in accusantium laborum commodi repudiandae inventore voluptates quis error nam nemo.
+                          Illum dignissimos in accusantium laborum commodi
+                          repudiandae inventore voluptates quis error nam nemo.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati non, possimus amet enim neque in molestias voluptate.
+                          Quos dicta adipisci repellendus voluptas obcaecati
+                          non, possimus amet enim neque in molestias voluptate.
                         </p>
                       </div>
                     </div>
@@ -1762,14 +1795,20 @@
                   >
                     volver
                   </button>
-                  <a class="btn text-white" style="background: rgb(163, 12, 163)" href="./carrito.html">Agregar a carrito</a>
+                  <a
+                    class="btn text-white"
+                    style="background: rgb(163, 12, 163)"
+                    href="./carrito.html"
+                    >Agregar a carrito</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div> <!-- Modal hombre -->
+        <div>
+          <!-- Modal hombre -->
 
           <div
             class="modal fade"
@@ -1820,13 +1859,15 @@
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Earum, perspiciatis in.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Illum dignissimos in accusantium laborum commodi repudiandae inventore voluptates quis error nam nemo.
+                          Illum dignissimos in accusantium laborum commodi
+                          repudiandae inventore voluptates quis error nam nemo.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati non, possimus amet enim neque in molestias voluptate.
+                          Quos dicta adipisci repellendus voluptas obcaecati
+                          non, possimus amet enim neque in molestias voluptate.
                         </p>
                       </div>
                     </div>
@@ -1840,15 +1881,21 @@
                   >
                     volver
                   </button>
-                  <a class="btn text-white" style="background: rgb(163, 12, 163)" href="./carrito.html">Agregar a carrito</a>
+                  <a
+                    class="btn text-white"
+                    style="background: rgb(163, 12, 163)"
+                    href="./carrito.html"
+                    >Agregar a carrito</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div> <!-- Modal accesorios -->
-          
+        <div>
+          <!-- Modal accesorios -->
+
           <div
             class="modal fade"
             id="modal3"
@@ -1898,13 +1945,15 @@
                           Lorem ipsum dolor sit amet consectetur, adipisicing
                           elit. Earum, perspiciatis in.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Illum dignissimos in accusantium laborum commodi repudiandae inventore voluptates quis error nam nemo.
+                          Illum dignissimos in accusantium laborum commodi
+                          repudiandae inventore voluptates quis error nam nemo.
                         </p>
-                        <hr>
+                        <hr />
                         <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati non, possimus amet enim neque in molestias voluptate.
+                          Quos dicta adipisci repellendus voluptas obcaecati
+                          non, possimus amet enim neque in molestias voluptate.
                         </p>
                       </div>
                     </div>
@@ -1918,15 +1967,21 @@
                   >
                     volver
                   </button>
-                  <a class="btn text-white" style="background: rgb(163, 12, 163)" href="./carrito.html">Agregar a carrito</a>
+                  <a
+                    class="btn text-white"
+                    style="background: rgb(163, 12, 163)"
+                    href="./carrito.html"
+                    >Agregar a carrito</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div> <!-- Modal login -->
-          
+        <div>
+          <!-- Modal login -->
+
           <div
             class="modal fade"
             id="modallogin"
@@ -1934,14 +1989,10 @@
             aria-labelledby="exampleModalLabel"
             aria-hidden="true"
           >
-            <div
-              class="modal-dialog modal-dialog-centered"
-            >
-              <div class="modal-content" style="background-color: #f1e5ff;">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content" style="background-color: #f1e5ff">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Login
-                  </h1>
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
                   <button
                     type="button"
                     class="btn-close"
@@ -1951,9 +2002,8 @@
                 </div>
                 <div class="modal-body">
                   <div class="container-fluid">
-                    <div class="row d-flex">                   
+                    <div class="row d-flex">
                       <div>
-                        
                         <div class="form-group">
                           <label>Email:</label>
                           <input
@@ -1964,7 +2014,7 @@
                             class="form-control"
                           />
                         </div>
-          
+
                         <div class="form-group">
                           <label>Contraseña:</label>
                           <input
@@ -1998,140 +2048,155 @@
                     >
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
-
       </main>
 
       <footer>
         <div
-        class="container-fluid text-white p-3"
-        style="
-          font-family: ´Poppiins´, sans-serif;
-          background: rgb(163, 12, 163);
-          background: rgb(163, 12, 163);
-          background: lienear-gradient(
-            to right,
-            #0f0f14,
-            #171722,
-            #18160b,
-            #0e0c1a
-          );
-        "
-      >
-        <div class="row justify-content-around text-center text-md-start">
-          <div class="col-md-2 text-center">
-            <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
-            <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Institucional</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Quienes Somos</a
-                >
+          class="container-fluid text-white p-3"
+          style="
+            font-family: ´Poppiins´, sans-serif;
+            background: rgb(163, 12, 163);
+            background: rgb(163, 12, 163);
+            background: lienear-gradient(
+              to right,
+              #0f0f14,
+              #171722,
+              #18160b,
+              #0e0c1a
+            );
+          "
+        >
+          <div class="row justify-content-around text-center text-md-start">
+            <div class="col-md-2 text-center">
+              <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
+              <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Institucional</li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Quienes Somos</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Politica de Privacidad</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Terminos y Condiciones</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Defensa del Consumidor</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Ayuda</li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Preguntas Frecuentes</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >¿Como comprar?</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >¿Como medir tu talle?</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >Cambios</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
+                <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >contact</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white"
+                    >supoort requerido</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <li class="fw-bold my-2 list-unstyled text-center">
+                Redes Sociales
               </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Politica de Privacidad</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Terminos y Condiciones</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Defensa del Consumidor</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Ayuda</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Preguntas Frecuentes</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como comprar?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como medir tu talle?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white">Cambios</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
-              <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
-              <li>
-                <a href="#" class="text-decoration-none text-white">contact</a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >supoort requerido</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 ">
-            <li class="fw-bold my-2 list-unstyled text-center">Redes Sociales</li>
-            <ul
-              class="list-unstyled d-flex justify-content-center justify-content-md-start"
-            >
-              <li>
-                <a href="https://www.facebook.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-facebook me-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-md-12 text-center pt-2">
-              <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
-              <p>
-                © 2023. Todos los derechos reservados. | Todas las marcas y sus
-                imágenes son propiedad de sus respectivos dueños | Se prohíbe la
-                reproducción, total o parcial, de cualquier contenido sin
-                autorización expresa.
-              </p>
+              <ul
+                class="list-unstyled d-flex justify-content-center justify-content-md-start"
+              >
+                <li>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-facebook me-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.whatsapp.com/?lang=es"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-md-12 text-center pt-2">
+                <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
+                <p>
+                  © 2023. Todos los derechos reservados. | Todas las marcas y
+                  sus imágenes son propiedad de sus respectivos dueños | Se
+                  prohíbe la reproducción, total o parcial, de cualquier
+                  contenido sin autorización expresa.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </footer>
-      
     </div>
 
     <script
