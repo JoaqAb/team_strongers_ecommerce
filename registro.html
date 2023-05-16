@@ -41,7 +41,7 @@
       >
         <div class="container-fluid">
           <a
-            class="navbar-brand fs-4 fw-bold"
+            class="navbar-brand fs-4 fw-bold align-self-center"
             href="./index.html"
             style="color: #f1e5ff"
             >1KM+</a
@@ -57,8 +57,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="menuNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
+            <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <form class="d-flex" role="search">
                   <input
@@ -67,11 +67,61 @@
                     placeholder="Search"
                     aria-label="Search"
                   />
-                  <button class="btn btn-outline-secondary" type="submit">
+                  <button
+                    class="btn btn-outline-secondary"
+                    style="color: #f1e5ff"
+                    type="submit"
+                  >
                     Buscar
                   </button>
                 </form>
               </li>
+
+              <li class="nav-item ms-2">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    style="background: rgb(163, 12, 163); margin-rigth: "
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categoria
+                  </button>
+                  <ul class="dropdown-menu" style="background: #f1e5ff">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_m.html"
+                        >Mujer</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_h.html"
+                        >Hombre</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_a.html"
+                        >Accesorios</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-secondary ms-2" style="background: rgb(163, 12, 163)" href="./carrito.html">Carrito</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav me-3">
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
@@ -85,12 +135,6 @@
                 <a class="nav-link text-white" href="./registro.html"
                   >Registrarse</a
                 >
-              </li>
-            </ul>
-
-            <ul class="navbar-nav me-3">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./carrito.html">Carrito</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="./contacto.html"
@@ -106,143 +150,144 @@
           </div>
         </div>
       </nav>
+      <main>
+        <section class="container mt-5 mb-5">
+          <div action="row">
+            <div class="col-12">
+              <form
+                action=""
+                method="post"
+                class="form1"
+                style="
+                  max-width: 25em;
+                  padding: 1.3em;
+                  margin: 0 auto;
+                  background-color: #f1e5ff;
+                  font-weight: bold;
+                  color: rgb(163, 12, 163);
+                  border-radius: 0.5em;
+                  box-shadow: 0 0 20px rgb(163, 12, 163);
+                "
+              >
+                <h3>Registro Personal</h3>
+                <div class="form-group">
+                  <label>Apellido y Nombre:</label>
+                  <input
+                    type="text"
+                    placeholder="Introduzca el nombre completo"
+                    maxlength="30"
+                    id="nombre"
+                    name="nombre"
+                    class="form-control"
+                  />
+                </div>
 
-      <section class="container mt-5 mb-5">
-        <div action="row">
-          <div class="col-12">
-            <form
-              action=""
-              method="post"
-              class="form1"
-              style="
-                max-width: 25em;
-                padding: 1.3em;
-                margin: 0 auto;
-                background-color: #f1e5ff;
-                font-weight: bold;
-                color: rgb(163, 12, 163);
-                border-radius: 0.5em;
-                box-shadow: 0 0 20px rgb(163, 12, 163);
-              "
-            >
-              <h3>Registro Personal</h3>
-              <div class="form-group">
-                <label>Apellido y Nombre:</label>
-                <input
-                  type="text"
-                  placeholder="Introduzca el nombre completo"
-                  maxlength="30"
-                  id="nombre"
-                  name="nombre"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Localidad:</label>
+                  <input
+                    type="text"
+                    placeholder="Localidad"
+                    maxlength="30"
+                    id="localidad"
+                    name="localidad"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Localidad:</label>
-                <input
-                  type="text"
-                  placeholder="Localidad"
-                  maxlength="30"
-                  id="localidad"
-                  name="localidad"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Domicilio:</label>
+                  <input
+                    type="text"
+                    placeholder="Domicilio"
+                    maxlength="30"
+                    id="domicilio"
+                    name="domicilio"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Domicilio:</label>
-                <input
-                  type="text"
-                  placeholder="Domicilio"
-                  maxlength="30"
-                  id="domicilio"
-                  name="domicilio"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Codigo Postal:</label>
+                  <input
+                    type="integer"
+                    placeholder="Codigo Postal"
+                    id="cod postal"
+                    name="cod postal"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Codigo Postal:</label>
-                <input
-                  type="integer"
-                  placeholder="Codigo Postal"
-                  id="cod postal"
-                  name="cod postal"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Telefono:</label>
+                  <input
+                    type="integer"
+                    placeholder="Telefono"
+                    id="telefono"
+                    name="telefono"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Telefono:</label>
-                <input
-                  type="integer"
-                  placeholder="Telefono"
-                  id="telefono"
-                  name="telefono"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Nombre de usuario:</label>
+                  <input
+                    type="text"
+                    placeholder="Usuario"
+                    maxlength="20"
+                    id="usuario"
+                    name="usuario"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Nombre de usuario:</label>
-                <input
-                  type="text"
-                  placeholder="Usuario"
-                  maxlength="20"
-                  id="usuario"
-                  name="usuario"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Email:</label>
+                  <input
+                    type="char"
+                    placeholder="Email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Email:</label>
-                <input
-                  type="char"
-                  placeholder="Email"
-                  id="email"
-                  name="email"
-                  class="form-control"
-                />
-              </div>
+                <div class="form-group">
+                  <label>Contraseña:</label>
+                  <input
+                    type="char"
+                    placeholder="Contraseña"
+                    maxlength="10"
+                    id="contraseña"
+                    name="contraseña"
+                    class="form-control"
+                  />
+                </div>
 
-              <div class="form-group">
-                <label>Contraseña:</label>
-                <input
-                  type="char"
-                  placeholder="Contraseña"
-                  maxlength="10"
-                  id="contraseña"
-                  name="contraseña"
-                  class="form-control"
-                />
-              </div>
+                <br />
 
-              <br />
-
-              <div class="form-group">
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  style="background: rgb(163, 12, 163)"
-                >
-                  Registrarme
-                </button>
-                <a
-                  href="./index.html"
-                  class="btn btn-success"
-                  style="background: rgb(163, 12, 163)"
-                  >Volver</a
-                >
-              </div>
-            </form>
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    style="background: rgb(163, 12, 163)"
+                  >
+                    Registrarme
+                  </button>
+                  <a
+                    href="./index.html"
+                    class="btn btn-success"
+                    style="background: rgb(163, 12, 163)"
+                    >Volver</a
+                  >
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
-      </section>
-
+        </section>
+      </main>
       <div>
         <!-- Modal login -->
+
         <div
           class="modal fade"
           id="modallogin"
@@ -302,10 +347,10 @@
                     Login
                   </button>
                   <a
-                    href="./index.html"
+                    href="./registro.html"
                     class="btn text-white"
                     style="background: rgb(163, 12, 163)"
-                    >Volver</a
+                    >Registrarse</a
                   >
                 </div>
               </div>
@@ -339,22 +384,24 @@
               <ul class="list-unstyled">
                 <li class="fw-bold my-2">Institucional</li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
+                  <a
+                    href="./quienes_somos.html"
+                    class="text-decoration-none text-white"
                     >Quienes Somos</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >Politica de Privacidad</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Política de Privacidad</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >Terminos y Condiciones</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Términos y Condiciones</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
+                  <a href="./404.html" class="text-decoration-none text-white"
                     >Defensa del Consumidor</a
                   >
                 </li>
@@ -364,22 +411,22 @@
               <ul class="list-unstyled">
                 <li class="fw-bold my-2">Ayuda</li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
+                  <a href="./404.html" class="text-decoration-none text-white"
                     >Preguntas Frecuentes</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >¿Como comprar?</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo comprar?</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >¿Como medir tu talle?</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo medir tu talle?</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
+                  <a href="./404.html" class="text-decoration-none text-white"
                     >Cambios</a
                   >
                 </li>
@@ -387,16 +434,16 @@
             </div>
             <div class="col-md-2">
               <ul class="list-unstyled">
-                <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
+                <li class="fw-bold my-2">Centro de Atención al Cliente</li>
                 <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >contact</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Contacto</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-decoration-none text-white"
-                    >supoort requerido</a
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Soporte</a
                   >
                 </li>
               </ul>
@@ -405,9 +452,7 @@
               <li class="fw-bold my-2 list-unstyled text-center">
                 Redes Sociales
               </li>
-              <ul
-                class="list-unstyled d-flex justify-content-center justify-content-md-start"
-              >
+              <ul class="list-unstyled d-flex justify-content-center">
                 <li>
                   <a
                     href="https://www.facebook.com/"

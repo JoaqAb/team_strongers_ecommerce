@@ -11,8 +11,17 @@
     />
     <meta name="author" content="Carolina Fernandez" />
     <title>Contacto</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppinswght@300display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppinswght@300display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body
@@ -57,11 +66,61 @@
                     placeholder="Search"
                     aria-label="Search"
                   />
-                  <button class="btn btn-outline-secondary" type="submit">
+                  <button
+                    class="btn btn-outline-secondary"
+                    style="color: #f1e5ff"
+                    type="submit"
+                  >
                     Buscar
                   </button>
                 </form>
               </li>
+
+              <li class="nav-item ms-2">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    style="background: rgb(163, 12, 163); margin-rigth: "
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categoria
+                  </button>
+                  <ul class="dropdown-menu" style="background: #f1e5ff">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_m.html"
+                        >Mujer</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_h.html"
+                        >Hombre</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_a.html"
+                        >Accesorios</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-secondary ms-2" style="background: rgb(163, 12, 163)" href="./carrito.html">Carrito</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav me-3">
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
@@ -75,12 +134,6 @@
                 <a class="nav-link text-white" href="./registro.html"
                   >Registrarse</a
                 >
-              </li>
-            </ul>
-
-            <ul class="navbar-nav me-3">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./carrito.html">Carrito</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="./contacto.html"
@@ -140,7 +193,10 @@
 
                 <div class="mb-3">
                   <label for="mensaje" class="form-label">Mensaje</label>
-                  <textarea class="form-control" aria-label="With textarea" ></textarea>
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                  ></textarea>
                 </div>
               </form>
 
@@ -246,10 +302,10 @@
                     Login
                   </button>
                   <a
-                    href="./index.html"
+                    href="./registro.html"
                     class="btn text-white"
                     style="background: rgb(163, 12, 163)"
-                    >Volver</a
+                    >Registrarse</a
                   >
                 </div>
               </div>
@@ -260,128 +316,146 @@
 
       <footer>
         <div
-        class="container-fluid text-white p-3"
-        style="
-          font-family: ´Poppiins´, sans-serif;
-          background: rgb(163, 12, 163);
-          background: rgb(163, 12, 163);
-          background: lienear-gradient(
-            to right,
-            #0f0f14,
-            #171722,
-            #18160b,
-            #0e0c1a
-          );
-        "
-      >
-        <div class="row justify-content-around text-center text-md-start">
-          <div class="col-md-2 text-center">
-            <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
-            <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Institucional</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Quienes Somos</a
-                >
+          class="container-fluid text-white p-3"
+          style="
+            font-family: ´Poppiins´, sans-serif;
+            background: rgb(163, 12, 163);
+            background: rgb(163, 12, 163);
+            background: lienear-gradient(
+              to right,
+              #0f0f14,
+              #171722,
+              #18160b,
+              #0e0c1a
+            );
+          "
+        >
+          <div class="row justify-content-around text-center text-md-start">
+            <div class="col-md-2 text-center">
+              <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
+              <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Institucional</li>
+                <li>
+                  <a
+                    href="./quienes_somos.html"
+                    class="text-decoration-none text-white"
+                    >Quienes Somos</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Política de Privacidad</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Términos y Condiciones</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Defensa del Consumidor</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Ayuda</li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Preguntas Frecuentes</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo comprar?</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo medir tu talle?</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Cambios</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Centro de Atención al Cliente</li>
+                <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Contacto</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Soporte</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <li class="fw-bold my-2 list-unstyled text-center">
+                Redes Sociales
               </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Politica de Privacidad</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Terminos y Condiciones</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Defensa del Consumidor</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Ayuda</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Preguntas Frecuentes</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como comprar?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como medir tu talle?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white">Cambios</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
-              <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
-              <li>
-                <a href="#" class="text-decoration-none text-white">contact</a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >supoort requerido</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 ">
-            <li class="fw-bold my-2 list-unstyled text-center">Redes Sociales</li>
-            <ul
-              class="list-unstyled d-flex justify-content-center justify-content-md-start"
-            >
-              <li>
-                <a href="https://www.facebook.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-facebook me-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-md-12 text-center pt-2">
-              <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
-              <p>
-                © 2023. Todos los derechos reservados. | Todas las marcas y sus
-                imágenes son propiedad de sus respectivos dueños | Se prohíbe la
-                reproducción, total o parcial, de cualquier contenido sin
-                autorización expresa.
-              </p>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-facebook me-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.whatsapp.com/?lang=es"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-md-12 text-center pt-2">
+                <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
+                <p>
+                  © 2023. Todos los derechos reservados. | Todas las marcas y
+                  sus imágenes son propiedad de sus respectivos dueños | Se
+                  prohíbe la reproducción, total o parcial, de cualquier
+                  contenido sin autorización expresa.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </footer>
     </div>
     <script

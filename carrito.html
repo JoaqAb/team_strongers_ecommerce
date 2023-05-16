@@ -47,12 +47,25 @@
         style="background: rgb(163, 12, 163)"
       >
         <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-bold" href="./index.html" style="color: #f1e5ff;">1KM+</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a
+            class="navbar-brand fs-4 fw-bold align-self-center"
+            href="./index.html"
+            style="color: #f1e5ff"
+            >1KM+</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuNav"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
+            <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <form class="d-flex" role="search">
                   <input
@@ -61,32 +74,86 @@
                     placeholder="Search"
                     aria-label="Search"
                   />
-                  <button class="btn btn-outline-secondary" type="submit">
+                  <button
+                    class="btn btn-outline-secondary"
+                    style="color: #f1e5ff"
+                    type="submit"
+                  >
                     Buscar
                   </button>
                 </form>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" style="cursor: pointer;" data-bs-toggle="modal"
-                data-bs-target="#modallogin">Login</a>
+
+              <li class="nav-item ms-2">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    style="background: rgb(163, 12, 163); margin-rigth: "
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categoria
+                  </button>
+                  <ul class="dropdown-menu" style="background: #f1e5ff">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_m.html"
+                        >Mujer</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_h.html"
+                        >Hombre</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        style="color: rgb(163, 12, 163)"
+                        href="./cate_a.html"
+                        >Accesorios</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./registro.html">Registrarse</a>
+                <a class="btn btn-secondary ms-2" style="background: rgb(163, 12, 163)" href="./carrito.html">Carrito</a>
               </li>
             </ul>
 
             <ul class="navbar-nav me-3">
               <li class="nav-item">
-                <a class="nav-link text-white" href="./carrito.html">Carrito</a>
+                <a
+                  class="nav-link text-white"
+                  style="cursor: pointer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modallogin"
+                  >Login</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                <a class="nav-link text-white" href="./registro.html"
+                  >Registrarse</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./quienes_somos.html">Nosotros</a>
+                <a class="nav-link text-white" href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./quienes_somos.html"
+                  >Nosotros</a
+                >
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
@@ -115,13 +182,13 @@
               class="btn btn-primary"
               href="./index.html"
               role="button"
-              style="background: rgb(163, 12, 163);"
+              style="background: rgb(163, 12, 163)"
               >Seguir Comprando</a
             >
           </div>
         </div>
 
-        <hr class="d-none d-md-block"/>
+        <hr class="d-none d-md-block" />
 
         <div class="row m-3 justify-content-evenly">
           <div class="d-none d-md-block">
@@ -139,7 +206,6 @@
 
           <!-- primer articulo -->
           <div class="row justify-content-between">
-
             <div
               class="d-flex col-8 col-md-5 card m-2 p-2 flex-fill"
               style="max-width: auto; cursor: pointer"
@@ -208,7 +274,6 @@
 
           <!-- segundo articulo -->
           <div class="row justify-content-between">
-
             <div
               class="d-flex col-8 col-md-5 card m-2 p-2 flex-fill"
               style="max-width: auto; cursor: pointer"
@@ -276,7 +341,6 @@
           <hr class="mt-3" />
           <!-- tercer articulo -->
           <div class="row justify-content-between">
-
             <div
               class="d-flex col-8 col-md-5 card m-2 p-2 flex-fill"
               style="max-width: auto; cursor: pointer"
@@ -355,468 +419,485 @@
               class="btn btn-primary"
               href="./404.html"
               role="button"
-              style="background: rgb(163, 12, 163); float: right;"
+              style="background: rgb(163, 12, 163); float: right"
               >Confirmar Compra</a
             >
           </div>
         </div>
-
-        <div>
-          <!-- Modal mujer -->
-
-          <div
-            class="modal fade"
-            id="modal1"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Mujer</h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container-fluid">
-                    <div class="row d-flex">
-                      <div class="col-6">
-                        <img
-                          src="./imagenes/m2.jpg"
-                          alt=""
-                          style="max-width: 100%"
-                        />
-                      </div>
-                      <div class="col-6">
-                        <h1>Zapatos</h1>
-                        <h3>$ 1000</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                      </div>
-
-                      <hr class="mt-3" />
-
-                      <div>
-                        <h3>Comentarios</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                        <hr />
-                        <p>
-                          Illum dignissimos in accusantium laborum commodi
-                          repudiandae inventore voluptates quis error nam nemo.
-                        </p>
-                        <hr />
-                        <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati
-                          non, possimus amet enim neque in molestias voluptate.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    volver
-                  </button>
-                  <a
-                    class="btn text-white"
-                    style="background: rgb(163, 12, 163)"
-                    href="./carrito.html"
-                    >Agregar a carrito</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <!-- Modal hombre -->
-
-          <div
-            class="modal fade"
-            id="modal2"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Hombre
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container-fluid">
-                    <div class="row d-flex">
-                      <div class="col-6">
-                        <img
-                          src="./imagenes/h1.jpg"
-                          alt=""
-                          style="max-width: 100%"
-                        />
-                      </div>
-                      <div class="col-6">
-                        <h1>Remera negra</h1>
-                        <h3>$ 1000</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                      </div>
-
-                      <hr class="mt-3" />
-
-                      <div>
-                        <h3>Comentarios</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                        <hr />
-                        <p>
-                          Illum dignissimos in accusantium laborum commodi
-                          repudiandae inventore voluptates quis error nam nemo.
-                        </p>
-                        <hr />
-                        <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati
-                          non, possimus amet enim neque in molestias voluptate.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    volver
-                  </button>
-                  <a
-                    class="btn text-white"
-                    style="background: rgb(163, 12, 163)"
-                    href="./carrito.html"
-                    >Agregar a carrito</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <!-- Modal accesorios -->
-
-          <div
-            class="modal fade"
-            id="modal3"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Accesorios
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container-fluid">
-                    <div class="row d-flex">
-                      <div class="col-6">
-                        <img
-                          src="./imagenes/a1.jpg"
-                          alt=""
-                          style="max-width: 100%"
-                        />
-                      </div>
-                      <div class="col-6">
-                        <h1>Gorra</h1>
-                        <h3>$ 1000</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                      </div>
-
-                      <hr class="mt-3" />
-
-                      <div>
-                        <h3>Comentarios</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing
-                          elit. Earum, perspiciatis in.
-                        </p>
-                        <hr />
-                        <p>
-                          Illum dignissimos in accusantium laborum commodi
-                          repudiandae inventore voluptates quis error nam nemo.
-                        </p>
-                        <hr />
-                        <p>
-                          Quos dicta adipisci repellendus voluptas obcaecati
-                          non, possimus amet enim neque in molestias voluptate.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    volver
-                  </button>
-                  <a
-                    class="btn text-white"
-                    style="background: rgb(163, 12, 163)"
-                    href="./carrito.html"
-                    >Agregar a carrito</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <!-- Modal login -->
-
-          <div
-            class="modal fade"
-            id="modallogin"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content" style="background-color: #f1e5ff">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container-fluid">
-                    <div class="row d-flex">
-                      <div>
-                        <div class="form-group">
-                          <label>Email:</label>
-                          <input
-                            type="char"
-                            placeholder="Email"
-                            id="email"
-                            name="email"
-                            class="form-control"
-                          />
-                        </div>
-
-                        <div class="form-group">
-                          <label>Contraseña:</label>
-                          <input
-                            type="char"
-                            placeholder="Contraseña"
-                            maxlength="10"
-                            id="contraseña"
-                            name="contraseña"
-                            class="form-control"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal-footer">
-                  <div class="form-group">
-                    <button
-                      type="submit"
-                      class="btn text-white"
-                      style="background: rgb(163, 12, 163)"
-                    >
-                      Login
-                    </button>
-                    <a
-                      href="./index.html"
-                      class="btn text-white"
-                      style="background: rgb(163, 12, 163)"
-                      >Volver</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </main>
 
-      <footer>
+      <div>
+        <!-- Modal mujer -->
+
         <div
-        class="container-fluid text-white p-3"
-        style="
-          font-family: ´Poppiins´, sans-serif;
-          background: rgb(163, 12, 163);
-          background: rgb(163, 12, 163);
-          background: lienear-gradient(
-            to right,
-            #0f0f14,
-            #171722,
-            #18160b,
-            #0e0c1a
-          );
-        "
-      >
-        <div class="row justify-content-around text-center text-md-start">
-          <div class="col-md-2 text-center">
-            <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
-            <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Institucional</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Quienes Somos</a
+          class="modal fade"
+          id="modal1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Mujer</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row d-flex">
+                    <div class="col-6">
+                      <img
+                        src="./imagenes/m2.jpg"
+                        alt=""
+                        style="max-width: 100%"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h1>Zapatos</h1>
+                      <h3>$ 1000</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                    </div>
+
+                    <hr class="mt-3" />
+
+                    <div>
+                      <h3>Comentarios</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                      <hr />
+                      <p>
+                        Illum dignissimos in accusantium laborum commodi
+                        repudiandae inventore voluptates quis error nam nemo.
+                      </p>
+                      <hr />
+                      <p>
+                        Quos dicta adipisci repellendus voluptas obcaecati non,
+                        possimus amet enim neque in molestias voluptate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
                 >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Politica de Privacidad</a
+                  volver
+                </button>
+                <a
+                  class="btn text-white"
+                  style="background: rgb(163, 12, 163)"
+                  href="./carrito.html"
+                  >Agregar a carrito</a
                 >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Terminos y Condiciones</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Defensa del Consumidor</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Ayuda</li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >Preguntas Frecuentes</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como comprar?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >¿Como medir tu talle?</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white">Cambios</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <ul class="list-unstyled">
-              <li class="fw-bold my-2">Centro de Atencion al Cliente</li>
-              <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
-              <li>
-                <a href="#" class="text-decoration-none text-white">contact</a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none text-white"
-                  >supoort requerido</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 ">
-            <li class="fw-bold my-2 list-unstyled text-center">Redes Sociales</li>
-            <ul
-              class="list-unstyled d-flex justify-content-center justify-content-md-start"
-            >
-              <li>
-                <a href="https://www.facebook.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-facebook me-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/" target="_blank" class="text-white"
-                  ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div class="row">
-            <div class="col-md-12 text-center pt-2">
-              <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
-              <p>
-                © 2023. Todos los derechos reservados. | Todas las marcas y sus
-                imágenes son propiedad de sus respectivos dueños | Se prohíbe la
-                reproducción, total o parcial, de cualquier contenido sin
-                autorización expresa.
-              </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div>
+        <!-- Modal hombre -->
+
+        <div
+          class="modal fade"
+          id="modal2"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Hombre</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row d-flex">
+                    <div class="col-6">
+                      <img
+                        src="./imagenes/h1.jpg"
+                        alt=""
+                        style="max-width: 100%"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h1>Remera negra</h1>
+                      <h3>$ 1000</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                    </div>
+
+                    <hr class="mt-3" />
+
+                    <div>
+                      <h3>Comentarios</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                      <hr />
+                      <p>
+                        Illum dignissimos in accusantium laborum commodi
+                        repudiandae inventore voluptates quis error nam nemo.
+                      </p>
+                      <hr />
+                      <p>
+                        Quos dicta adipisci repellendus voluptas obcaecati non,
+                        possimus amet enim neque in molestias voluptate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  volver
+                </button>
+                <a
+                  class="btn text-white"
+                  style="background: rgb(163, 12, 163)"
+                  href="./carrito.html"
+                  >Agregar a carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Modal accesorios -->
+
+        <div
+          class="modal fade"
+          id="modal3"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Accesorios
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row d-flex">
+                    <div class="col-6">
+                      <img
+                        src="./imagenes/a1.jpg"
+                        alt=""
+                        style="max-width: 100%"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <h1>Gorra</h1>
+                      <h3>$ 1000</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                    </div>
+
+                    <hr class="mt-3" />
+
+                    <div>
+                      <h3>Comentarios</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Earum, perspiciatis in.
+                      </p>
+                      <hr />
+                      <p>
+                        Illum dignissimos in accusantium laborum commodi
+                        repudiandae inventore voluptates quis error nam nemo.
+                      </p>
+                      <hr />
+                      <p>
+                        Quos dicta adipisci repellendus voluptas obcaecati non,
+                        possimus amet enim neque in molestias voluptate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  volver
+                </button>
+                <a
+                  class="btn text-white"
+                  style="background: rgb(163, 12, 163)"
+                  href="./carrito.html"
+                  >Agregar a carrito</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Modal login -->
+
+        <div
+          class="modal fade"
+          id="modallogin"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: #f1e5ff">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row d-flex">
+                    <div>
+                      <div class="form-group">
+                        <label>Email:</label>
+                        <input
+                          type="char"
+                          placeholder="Email"
+                          id="email"
+                          name="email"
+                          class="form-control"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <label>Contraseña:</label>
+                        <input
+                          type="char"
+                          placeholder="Contraseña"
+                          maxlength="10"
+                          id="contraseña"
+                          name="contraseña"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="btn text-white"
+                    style="background: rgb(163, 12, 163)"
+                  >
+                    Login
+                  </button>
+                  <a
+                    href="./registro.html"
+                    class="btn text-white"
+                    style="background: rgb(163, 12, 163)"
+                    >Registrarse</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div
+          class="container-fluid text-white p-3"
+          style="
+            font-family: ´Poppiins´, sans-serif;
+            background: rgb(163, 12, 163);
+            background: rgb(163, 12, 163);
+            background: lienear-gradient(
+              to right,
+              #0f0f14,
+              #171722,
+              #18160b,
+              #0e0c1a
+            );
+          "
+        >
+          <div class="row justify-content-around text-center text-md-start">
+            <div class="col-md-2 text-center">
+              <img src="imagenes/logo.jpg" alt="Logo Empresa" width="160px" />
+              <!--<h1 class="fw-bold mt-3">1KM+</h1>-->
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Institucional</li>
+                <li>
+                  <a
+                    href="./quienes_somos.html"
+                    class="text-decoration-none text-white"
+                    >Quienes Somos</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Política de Privacidad</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Términos y Condiciones</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Defensa del Consumidor</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Ayuda</li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Preguntas Frecuentes</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo comprar?</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >¿Cómo medir tu talle?</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Cambios</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul class="list-unstyled">
+                <li class="fw-bold my-2">Centro de Atención al Cliente</li>
+                <p>Lunes a Viernes de 9 a 20 hs / Sábados de 9 a 17 hs</p>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Contacto</a
+                  >
+                </li>
+                <li>
+                  <a href="./404.html" class="text-decoration-none text-white"
+                    >Soporte</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <li class="fw-bold my-2 list-unstyled text-center">
+                Redes Sociales
+              </li>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-facebook me-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.whatsapp.com/?lang=es"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-whatsapp mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-youtube mx-2 fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="text-white"
+                    ><i class="fa-brands fa-instagram mx-2 fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-md-12 text-center pt-2">
+                <!--<p>&copy; 2023 Copyright <a href="#" class="text-white">The Providers</a></p>-->
+                <p>
+                  © 2023. Todos los derechos reservados. | Todas las marcas y
+                  sus imágenes son propiedad de sus respectivos dueños | Se
+                  prohíbe la reproducción, total o parcial, de cualquier
+                  contenido sin autorización expresa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
+      
     </div>
 
     <script
