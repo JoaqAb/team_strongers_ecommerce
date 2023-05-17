@@ -12,92 +12,123 @@
     />
   </head>
   <body>
-      <!-- BARRA DE NAVEGACION -->
-      <nav
-        class="navbar navbar-expand-md fixed-top sticky-top"
-        style="background: rgb(163, 12, 163)"
-      >
-        <div class="container-fluid">
-          <a
-            class="navbar-brand fs-4 fw-bold align-self-center"
-            href="./index.html"
-            style="color: #f1e5ff"
-            >1KM+</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menuNav"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <form class="d-flex" role="search">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-outline-secondary" style="color: #f1e5ff" type="submit">
-                    Buscar
-                  </button>
-                </form>
-              </li>
-              
-              <li class="nav-item ms-2">
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" style="background: rgb(163, 12, 163);" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categoria
-                  </button>
-                  <ul class="dropdown-menu" style="background: #f1e5ff;">
-                    <li><a class="dropdown-item" style="color: rgb(163, 12, 163)" href="./cate_m.html">Mujer</a></li>
-                    <li><a class="dropdown-item" style="color: rgb(163, 12, 163)" href="./cate_h.html">Hombre</a></li>
-                    <li><a class="dropdown-item" style="color: rgb(163, 12, 163)" href="./cate_a.html">Accesorios</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./carrito.html">Carrito</a>
-              </li>
-              
-            </ul>
-
-            <ul class="navbar-nav me-3">
-              <li class="nav-item">
+    <!-- BARRA DE NAVEGACION -->
+    <nav
+      class="navbar navbar-expand-md fixed-top sticky-top"
+      style="background: rgb(163, 12, 163)"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand fs-4 fw-bold align-self-center"
+          href="./index.html"
+          style="color: #f1e5ff"
+          >1KM+</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item mx-1 mb-2 mb-md-0">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
                 <a
-                  class="nav-link text-white"
-                  style="cursor: pointer"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modallogin"
-                  >Login</a
+                  class="btn btn-secondary"
+                  style="background: rgb(163, 12, 163)"
+                  href="./404.html"
+                  >Buscar</a
                 >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./registro.html"
-                  >Registrarse</a
+              </form>
+            </li>
+            <li class="nav-item me-1 mb-2 mb-md-0">
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  style="background: rgb(163, 12, 163)"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./contacto.html"
-                  >Contacto</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./quienes_somos.html"
-                  >Nosotros</a
-                >
-              </li>
-            </ul>
-          </div>
+                  Categoria
+                </button>
+                <ul class="dropdown-menu" style="background: #f1e5ff">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="color: rgb(163, 12, 163)"
+                      href="./cate_m.html"
+                      >Mujer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="color: rgb(163, 12, 163)"
+                      href="./cate_h.html"
+                      >Hombre</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="color: rgb(163, 12, 163)"
+                      href="./cate_a.html"
+                      >Accesorios</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="btn btn-secondary"
+                style="background: rgb(163, 12, 163)"
+                href="./carrito.html"
+                >Carrito</a
+              >
+            </li>
+          </ul>
+
+          <ul class="navbar-nav me-3">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                style="cursor: pointer"
+                data-bs-toggle="modal"
+                data-bs-target="#modallogin"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./registro.html"
+                >Registrarse</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./quienes_somos.html"
+                >Nosotros</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

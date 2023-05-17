@@ -21,16 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Categoria de productos</title>
-    <style>
-      .btn {
-        width: 80px;
-        font-size: 12px;
-      }
-      .card {
-        margin-bottom: 10px;
-      }
-    </style>
+    <title>Categoria de productos</title>  
   </head>
 
   <body
@@ -67,29 +58,26 @@
           </button>
           <div class="collapse navbar-collapse mt-2 mt-md-0" id="menuNav">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item">
+              <li class="nav-item mx-1 mb-2 mb-md-0">
                 <form class="d-flex" role="search">
                   <input
-                    class="form-control me-2"
+                    class="form-control me-2 "
                     type="search"
                     placeholder="Search"
                     aria-label="Search"
                   />
-                  <button
-                    class="btn btn-outline-secondary"
-                    style="color: #f1e5ff"
-                    type="submit"
-                  >
-                    Buscar
-                  </button>
+                  <a
+                  class="btn btn-secondary"
+                  style="background: rgb(163, 12, 163)"
+                  href="./404.html"
+                  >Buscar</a>
                 </form>
               </li>
-
-              <li class="nav-item ms-2">
+              <li class="nav-item me-1 mb-2 mb-md-0">
                 <div class="dropdown">
                   <button
                     class="btn btn-secondary dropdown-toggle"
-                    style="background: rgb(163, 12, 163);"
+                    style="background: rgb(163, 12, 163)"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -124,12 +112,18 @@
                   </ul>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="btn btn-secondary ms-2" style="background: rgb(163, 12, 163)" href="./carrito.html">Carrito</a>
+              <li class="nav-item me-2">
+                <a
+                  class="btn btn-secondary"
+                  style="background: rgb(163, 12, 163)"
+                  href="./carrito.html"
+                  >Carrito</a
+                >
               </li>
             </ul>
 
             <ul class="navbar-nav me-3">
+
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
@@ -154,6 +148,7 @@
                   >Nosotros</a
                 >
               </li>
+
             </ul>
           </div>
         </div>
@@ -163,18 +158,18 @@
 
       <main>
         <div
-          class="d-flex justify-content-center p-2 mb-3"
+          class="card d-flex justify-content-center p-2 mb-3"
           style="background: rgb(163, 12, 163); color: #f1e5ff"
         >
-          <h2>HOMBRE</h2>
+          <h2 class="ms-2">HOMBRE</h2>
         </div>
         <hr class="m-2" />
         <div>
           <div class="container py-4">
             <div class="row">
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h1.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h1.jpg" alt="" />
                   <div class="card-body">
                     <h5 class="card-title">Remera</h5>
                     <p class="card-text">$1000</p>
@@ -195,21 +190,19 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h2.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h2.jpg" alt="" />
                   <div class="card-body">
                     <h5 class="card-title">Borcegos</h5>
                     <p class="card-text">$1000</p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <a
                           href=""
@@ -224,15 +217,15 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h3.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h3.jpg" alt="" />
                   <div class="card-body">
                     <h5 class="card-title">Short de baño</h5>
                     <p class="card-text">$1000</p>
@@ -240,9 +233,7 @@
                       class="d-flex justify-content-between align-items-center"
                     >
                       <div class="btn-group">
-                        <a
-                          href=""
-                          class="btn text-white"
+                        <a href="#" class="btn text-white"
                           style="background: rgb(163, 12, 163)"
                           data-bs-toggle="modal"
                           data-bs-target="#modal2"
@@ -253,24 +244,24 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h4.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h4.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">camisa</h5>
+                    <h5 class="card-title">Camisa</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
                       <div class="btn-group">
                         <a
-                          href=""
+                          href="#"
                           class="btn text-white"
                           style="background: rgb(163, 12, 163)"
                           data-bs-toggle="modal"
@@ -282,7 +273,7 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
@@ -296,10 +287,10 @@
           <div class="container py-4">
             <div class="row">
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h5.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h5.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Remera</h5>
+                    <h5 class="card-title">Zapatos</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -318,17 +309,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h6.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h6.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Borcegos</h5>
+                    <h5 class="card-title">Pantalon Vaquero</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -347,17 +338,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h7.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h7.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Short de baño</h5>
+                    <h5 class="card-title">Camisas a Cuadros</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -376,17 +367,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h8.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h8.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">camisa</h5>
+                    <h5 class="card-title">Remera Polo</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -405,7 +396,7 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
@@ -419,10 +410,10 @@
           <div class="container py-4">
             <div class="row">
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h9.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h9.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Remera</h5>
+                    <h5 class="card-title">Zapatilla</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -441,17 +432,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h10.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h10.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Borcegos</h5>
+                    <h5 class="card-title">Camisa Leñador</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -470,17 +461,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h11.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h11.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">Short de baño</h5>
+                    <h5 class="card-title">Short Vaquero</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -499,17 +490,17 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col col-sm-12 col-md-6 col-lg-3">
-                <div class="card">
-                  <img src="./imagenes/h12.jpg" alt="" />
+                <div class="card mb-3">
+                  <img class="card-img-top" src="./imagenes/h12.jpg" alt="" />
                   <div class="card-body">
-                    <h5 class="card-title">camisa</h5>
+                    <h5 class="card-title">Remera T-Shirt</h5>
                     <p class="card-text">$1000</p>
                     <div
                       class="d-flex justify-content-between align-items-center"
@@ -528,7 +519,7 @@
                         href="./carrito.html"
                         class="btn text-white"
                         style="background: rgb(163, 12, 163)"
-                        >Agregar al carrito</a
+                        >Carrito</a
                       >
                     </div>
                   </div>
@@ -539,6 +530,7 @@
           <hr class="m-2" />
         </div>
 
+        <!-- Paginación -->
         <div>
           <ul class="pagination">
             <li class="page-item active">
@@ -569,11 +561,21 @@
                 >3</a
               >
             </li>
+            <li class="page-item">
+              <a
+                class="page-link"
+                style="color: rgb(163, 12, 163)"
+                href="./index.html"
+                >Inicio</a
+              >
+            </li>
           </ul>
+          
         </div>
       </main>
+
+      <!-- Modal hombre -->
       <div>
-        <!-- Modal hombre -->
 
         <div
           class="modal fade"
@@ -609,8 +611,8 @@
                       <h1>Remera negra</h1>
                       <h3>$ 1000</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Earum, perspiciatis in.
+                        Remera negra confeccionada en algodón suave al tacto con
+                        corte clásico
                       </p>
                     </div>
 
@@ -618,19 +620,17 @@
 
                     <div>
                       <h3>Comentarios</h3>
+                      <hr>
+                      <p>Excelente relación precio calidad. Muy conforme.</p>
+                      <hr />
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Earum, perspiciatis in.
+                        Excelente producto! les quedó un poco más grande de lo
+                        esperado pero igual calza muy bien.
                       </p>
                       <hr />
                       <p>
-                        Illum dignissimos in accusantium laborum commodi
-                        repudiandae inventore voluptates quis error nam nemo.
-                      </p>
-                      <hr />
-                      <p>
-                        Quos dicta adipisci repellendus voluptas obcaecati non,
-                        possimus amet enim neque in molestias voluptate.
+                        Una barbaridad! excelente calidad. Volveré a comprar
+                        indudablemente.
                       </p>
                     </div>
                   </div>
@@ -656,8 +656,8 @@
         </div>
       </div>
 
+      <!-- Modal login -->
       <div>
-        <!-- Modal login -->
 
         <div
           class="modal fade"
